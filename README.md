@@ -50,3 +50,30 @@ pip install -r requirements.txt
 Launch the Streamlit app:
 
 streamlit run ui/app.py
+
+
+📊 Results & Insights
+
+Visual insights into factors influencing heart disease
+
+Model evaluation metrics (accuracy, precision, recall, F1-score)
+
+Clustering analysis for hidden patterns in patient data
+
+🛠️ Tech Stack
+
+Python, Pandas, NumPy, Scikit-learn
+
+Matplotlib, Seaborn (EDA & visualization)
+
+Streamlit (UI)
+
+GitHub + Ngrok (deployment & hosting)
+
+📌 Future Improvements
+
+Add deep learning models
+
+Deploy on Heroku / Render instead of Ngrok
+
+Enhance Streamlit UI with patient history upload
