@@ -12,24 +12,6 @@ This project implements a **comprehensive machine learning pipeline** on the **U
 - **Deployment:** Interactive **Streamlit UI** with Ngrok for sharing  
 
 ---
-
-## 📂 Project Structure  
-import os
-
-def print_structure(startpath, indent=""):
-    for i, element in enumerate(os.listdir(startpath)):
-        path = os.path.join(startpath, element)
-        is_last = i == len(os.listdir(startpath)) - 1
-        prefix = "└── " if is_last else "├── "
-        print(indent + prefix + element)
-        if os.path.isdir(path):
-            new_indent = indent + ("    " if is_last else "│   ")
-            print_structure(path, new_indent)
-
-# Run this in your project root
-print("Heart_Disease_Project/")
-print_structure(".")
-
 ## 🚀 How to Run  
 1. Clone the repository:
    ```bash
