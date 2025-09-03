@@ -19,15 +19,15 @@ This project implements a **comprehensive machine learning pipeline** on the **U
    cd Heart_disease_Project
 
 Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-
+```
 Launch the Streamlit app:
+   ```bash
+   streamlit run ui/app.py
 
-streamlit run ui/app.py
-
-
+```
 📊 Results & Insights
 
 Visual insights into factors influencing heart disease
