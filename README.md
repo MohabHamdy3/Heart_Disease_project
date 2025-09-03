@@ -14,27 +14,21 @@ This project implements a **comprehensive machine learning pipeline** on the **U
 ---
 
 ## 📂 Project Structure  
-Heart_Disease_Project/
-│── data/
-│ └── heart_disease.csv
-│── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_pca_analysis.ipynb
-│ ├── 03_feature_selection.ipynb
-│ ├── 04_supervised_learning.ipynb
-│ ├── 05_unsupervised_learning.ipynb
-│ ├── 06_hyperparameter_tuning.ipynb
-│── models/
-│ └── final_model.pkl
-│── ui/
-│ └── app.py
-│── deployment/
-│ └── ngrok_setup.txt
-│── results/
-│ └── evaluation_metrics.txt
-│── README.md
-│── requirements.txt
-│── .gitignore
+import os
+
+def print_structure(startpath, indent=""):
+    for i, element in enumerate(os.listdir(startpath)):
+        path = os.path.join(startpath, element)
+        is_last = i == len(os.listdir(startpath)) - 1
+        prefix = "└── " if is_last else "├── "
+        print(indent + prefix + element)
+        if os.path.isdir(path):
+            new_indent = indent + ("    " if is_last else "│   ")
+            print_structure(path, new_indent)
+
+# Run this in your project root
+print("Heart_Disease_Project/")
+print_structure(".")
 
 ## 🚀 How to Run  
 1. Clone the repository:
