@@ -24,9 +24,6 @@ data/*.zip
 # But allow final dataset
 !data/heart_disease.csv
 
-# Models
-models/*.pkl
-!models/final_model.pkl
 
 # Deployment
 deployment/*.log
