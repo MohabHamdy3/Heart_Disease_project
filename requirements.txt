@@ -7,10 +7,6 @@ matplotlib
 seaborn
 scipy
 
-If you also used xgboost or shap, add them too:
-xgboost
-shap
-
 How to use it
 
 1.In your project folder (where your Streamlit app and model are), create a file called requirements.txt.
