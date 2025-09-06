@@ -6,13 +6,3 @@ joblib
 matplotlib
 seaborn
 scipy
-
-How to use it
-
-1.In your project folder (where your Streamlit app and model are), create a file called requirements.txt.
-
-2.Copy the above content into it and save.
-
-3.Install everything locally with:
-
-pip install -r requirements.txt 
